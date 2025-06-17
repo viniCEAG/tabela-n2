@@ -5,55 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-table {
-  border-collapse: collapse;
-}
+        table {
+            border-collapse: collapse;
+            margin: auto; /* Centraliza horizontalmente */
+        }
 
-th, td {
-  border: 1px solid black;
-   
-}
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
 
+        thead {
+            background-color: lightgray; /* Fundo cinza claro no cabeçalho */
+        }
+
+        caption {
+            font-weight: bold; /* Negrito */
+            font-style: italic; /* Itálico */
+        }
+
+        .container {
+            text-align: center; /* Centraliza o conteúdo */
+        }
     </style>
 </head>
 <body>
-    <h1>Jogos Favoritos da Turma</h1>
-<table>
-<capition>Lista de Jogos</capition>
-<thead>
-<tr>
-<th>Nome do Jogo</th>
-<th>GÊNERO</th>
-<th>Ano de Lançamento</th>
-<th>Nota(0- 10)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-    <td>Minecraft</td>
-    <td>Sandbox</td>
-    <td>2011</td>
-    <td>9</td>
-</tr>
-<tr>
-    <td>God of War</td>
-    <td>Ação</td>
-    <td>2018</td>
-    <td>10</td>
-</tr>
-<tr>
-    <td>FIFA 23</td>
-    <td>Esportes</td>
-    <td>2022</td>
-    <td>8</td>
-</tr>
-</tbody>
-
-
-
-
-
-
-</table>
+    <div class="container">
+        <h1>Jogos Favoritos da Turma</h1>
+        <table>
+            <caption>Lista de Jogos</caption>
+            <thead>
+                <tr>
+                    <th>Nome do Jogo</th>
+                    <th>Gênero</th>
+                    <th>Ano de Lançamento</th>
+                    <th>Nota (0-10)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Minecraft</td>
+                    <td>Sandbox</td>
+                    <td>2011</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>God of War</td>
+                    <td>Ação</td>
+                    <td>2018</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>FIFA 23</td>
+                    <td>Esportes</td>
+                    <td>2022</td>
+                    <td>8</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </body>
 </html>
+
